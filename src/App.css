@@ -1,0 +1,62 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.todo-list {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.task-input input {
+    padding: 8px;
+    margin-right: 10px;
+    background-color: lemonchiffon;
+}
+
+.task-input button {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: lemonchiffon;
+}
+
+.tasks {
+    list-style: none;
+    padding: 0;
+}
+
+.tasks li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lemonchiffon;
+}
+
+.tasks li button {
+    margin-left: 5px;
+    background-color: lightgoldenrodyellow;
+}
+
+body {
+    background-color: darkslategrey;
+}
+
+.modal {
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.modal-content button {
+    background-color: lightgoldenrodyellow;
+}
+.modal-content input {
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    color: lemonchiffon;
+}
